@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 课程原始 PDF（版权归原作者，不随仓库分发）
+*.pdf
+*.zip
+
+# 抓取的 Redis 源码与配置片段（仅本地参考）
+.redis-rewrite-sources/
+
+# 编辑器 / 系统
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+node_modules/
