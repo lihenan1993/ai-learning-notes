@@ -80,7 +80,7 @@ Milvus：索引是**算法的选择**，直接决定召回结果怎么算出来�
 
 选择顺序（官方给的）：租户数 万级以上 → partition key；强合规隔离 → database / collection；要在租户间做聚合分析 → partition / partition key。
 
-对应到他的广告业务：这里的"租户"就是**广告主 / 媒体 App / 团队环境**。SSP 场景里 tenant = publisher_id 或 app_id，用 partition key 最自然，因为 publisher 数会到几万。
+对应到广告投放业务：这里的"租户"就是**广告主 / 媒体 App / 团队环境**。SSP 场景里 tenant = publisher_id 或 app_id，用 partition key 最自然，因为 publisher 数会到几万。
 
 ## 5. 五条"别硬类比"的硬差异
 

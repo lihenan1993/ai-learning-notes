@@ -48,7 +48,7 @@ OpenSpec 的定位不是「AI 编码工具」，而是**插在「聊天」和「
 - **每个 change 一个目录**：proposal / specs / design / tasks 四件套 + `.openspec.yaml` 元数据，任务勾选状态可追踪（`openspec status`）。
 - **delta 而不是全量**：只写这次 ADDED/MODIFIED/REMOVED 什么，上下文小。
 - **无阶段门（fluid not rigid）**：任何产物随时可改，改完再 apply，不像 spec-kit 那样必须按阶段走。
-- **brownfield 友好**：这是它和 spec-kit 最大的差异点。你要给已有的 SSP 后台加功能，不需要先补全系统规格，只写这次改动的 delta，archive 时自动合并进主 spec。
+- **brownfield 友好**：这是它和 spec-kit 最大的差异点。你要给已有的后台系统加功能，不需要先补全系统规格，只写这次改动的 delta，archive 时自动合并进主 spec。
 - **规格有版本、可审计**：谁在哪个 commit 改了哪条 requirement，git log 直接给答案。合规/交接场景是真价值。
 - **AI 工具无关**：今天 Claude Code，明天 Codex，规格不搬家。
 
