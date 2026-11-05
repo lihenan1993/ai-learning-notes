@@ -20,3 +20,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 node_modules/
+
+# 尚硅谷 LangChain 教程源码（第三方内容，不随仓库分发）
+LangChain/03-代码/
